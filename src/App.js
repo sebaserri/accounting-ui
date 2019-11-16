@@ -19,7 +19,7 @@ class App extends Component {
   render() {
     if (this.state.transactions.length > 0) {
       return (
-        <div className="container-fluid">
+        <div className="bg-light-silver p0 m0">
           <Transactions transactions={this.state.transactions} />
         </div>
       )
